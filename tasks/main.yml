@@ -4,7 +4,7 @@
     path: "{{ filename }}"
     regexp: "{{ line_to_change }}"
     line: "{{ change }}"
-    when: not replace_mode
+  when: not replace_mode
 
 - name: "Replace string {{ line_to_change }} on file {{ filename }}"
   replace:
