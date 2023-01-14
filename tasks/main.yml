@@ -10,5 +10,5 @@
   replace:
     path: "{{ filename }}"
     regexp: "{{ line_to_change }}"
-    reaplce: "{{ change }}"
+    repalce: "{{ change }}"
   when: replace_mode
